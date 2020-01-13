@@ -1,0 +1,30 @@
+{
+  "name": "koa-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "apollo-server-koa": "^1.2.0",
+    "graphql": "^14.5.8",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.8.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YangQiGitHub/koa-graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YangQiGitHub/koa-graphql/issues"
+  },
+  "homepage": "https://github.com/YangQiGitHub/koa-graphql#readme"
+}
